@@ -43,3 +43,16 @@ target 'Utilities' do
   # Pods for Utilities
 
 end
+
+target 'UIComponents' do
+  
+  project 'UIComponents/UIComponents.xcodeproj'
+  
+  # Pods for UIComponents
+  
+  # Generater
+  pod 'SwiftGen', '~> 6.5.1'
+  pod 'TinyConstraints', '~> 4.0'
+  pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher', :branch => 'version6-xcode13'
+
+end

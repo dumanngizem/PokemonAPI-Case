@@ -14,6 +14,9 @@
 		63C8DF8829C9A8490082114F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8DF8629C9A8490082114F /* Main.storyboard */; };
 		63C8DF8A29C9A84C0082114F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C8DF8929C9A84C0082114F /* Assets.xcassets */; };
 		63C8DF8D29C9A84C0082114F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8DF8B29C9A84C0082114F /* LaunchScreen.storyboard */; };
+		63C8E02729C9C1960082114F /* DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8E02629C9C1960082114F /* DataProvider.framework */; };
+		63C8E02B29C9C1B10082114F /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8E02A29C9C1B10082114F /* UIComponents.framework */; };
+		63C8E02F29C9C1CD0082114F /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8E02E29C9C1CD0082114F /* Utilities.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		63C8DF8929C9A84C0082114F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C8DF8C29C9A84C0082114F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C8DF8E29C9A84C0082114F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C8E02629C9C1960082114F /* DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C8E02A29C9C1B10082114F /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C8E02E29C9C1CD0082114F /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7D777F9159E2E2F95359F0 /* Pods-PokemonAPI-Case.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonAPI-Case.debug.xcconfig"; path = "Target Support Files/Pods-PokemonAPI-Case/Pods-PokemonAPI-Case.debug.xcconfig"; sourceTree = "<group>"; };
 		E14E7DB5AF1666B69EE7F170 /* Pods-PokemonAPI-Case.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonAPI-Case.release.xcconfig"; path = "Target Support Files/Pods-PokemonAPI-Case/Pods-PokemonAPI-Case.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,6 +42,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				348680B341C5F01E9654C71E /* Pods_PokemonAPI_Case.framework in Frameworks */,
+				63C8E02B29C9C1B10082114F /* UIComponents.framework in Frameworks */,
+				63C8E02729C9C1960082114F /* DataProvider.framework in Frameworks */,
+				63C8E02F29C9C1CD0082114F /* Utilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +57,6 @@
 				7F7D777F9159E2E2F95359F0 /* Pods-PokemonAPI-Case.debug.xcconfig */,
 				E14E7DB5AF1666B69EE7F170 /* Pods-PokemonAPI-Case.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,20 +81,31 @@
 		63C8DF7F29C9A8490082114F /* PokemonAPI-Case */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E03229C9C28B0082114F /* Configure */,
 				63C8DF8029C9A8490082114F /* AppDelegate.swift */,
 				63C8DF8229C9A8490082114F /* SceneDelegate.swift */,
 				63C8DF8429C9A8490082114F /* ViewController.swift */,
 				63C8DF8629C9A8490082114F /* Main.storyboard */,
 				63C8DF8929C9A84C0082114F /* Assets.xcassets */,
 				63C8DF8B29C9A84C0082114F /* LaunchScreen.storyboard */,
-				63C8DF8E29C9A84C0082114F /* Info.plist */,
 			);
 			path = "PokemonAPI-Case";
+			sourceTree = "<group>";
+		};
+		63C8E03229C9C28B0082114F /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				63C8DF8E29C9A84C0082114F /* Info.plist */,
+			);
+			path = Configure;
 			sourceTree = "<group>";
 		};
 		8C649C06B609DDE08E611FA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E02E29C9C1CD0082114F /* Utilities.framework */,
+				63C8E02A29C9C1B10082114F /* UIComponents.framework */,
+				63C8E02629C9C1960082114F /* DataProvider.framework */,
 				54E071CC20EC7F97820D2821 /* Pods_PokemonAPI_Case.framework */,
 			);
 			name = Frameworks;
@@ -285,6 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PokemonAPI-Case/Configure/info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -339,6 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PokemonAPI-Case/Configure/info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -359,7 +380,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L275C5HPVC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PokemonAPI-Case/Info.plist";
+				INFOPLIST_FILE = "PokemonAPI-Case/Configure/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -389,7 +410,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L275C5HPVC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PokemonAPI-Case/Info.plist";
+				INFOPLIST_FILE = "PokemonAPI-Case/Configure/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
