@@ -19,6 +19,7 @@
 		63C8DFF629C9B6E80082114F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFF529C9B6E80082114F /* UIViewController+Extensions.swift */; };
 		63C8DFF929C9B7300082114F /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFF829C9B7300082114F /* NotificationNames.swift */; };
 		63C8DFFB29C9B7470082114F /* NotificationCenter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFFA29C9B7470082114F /* NotificationCenter+Extensions.swift */; };
+		63C8E0EC29CA5B080082114F /* StringProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0EB29CA5B080082114F /* StringProtocol+Extensions.swift */; };
 		AD7FE5824B9CBB000FE339F1 /* libPods-Utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87358DEF61B421B9E705BB46 /* libPods-Utilities.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		63C8DFF529C9B6E80082114F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		63C8DFF829C9B7300082114F /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
 		63C8DFFA29C9B7470082114F /* NotificationCenter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Extensions.swift"; sourceTree = "<group>"; };
+		63C8E0EB29CA5B080082114F /* StringProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extensions.swift"; sourceTree = "<group>"; };
 		87358DEF61B421B9E705BB46 /* libPods-Utilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Utilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				63C8DFF129C9B6B10082114F /* String+Extensions.swift */,
 				63C8DFF329C9B6C50082114F /* Int+Extension.swift */,
 				63C8DFF529C9B6E80082114F /* UIViewController+Extensions.swift */,
+				63C8E0EB29CA5B080082114F /* StringProtocol+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				63C8DFEA29C9B6410082114F /* Formatter+Extension.swift in Sources */,
 				63C8DFF629C9B6E80082114F /* UIViewController+Extensions.swift in Sources */,
+				63C8E0EC29CA5B080082114F /* StringProtocol+Extensions.swift in Sources */,
 				63C8DFE329C9B5EA0082114F /* Clousers.swift in Sources */,
 				63C8DFF429C9B6C50082114F /* Int+Extension.swift in Sources */,
 				63C8DFFB29C9B7470082114F /* NotificationCenter+Extensions.swift in Sources */,
