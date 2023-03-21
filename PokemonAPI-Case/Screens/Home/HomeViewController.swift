@@ -15,6 +15,7 @@ final class HomeViewController: BaseViewController<HomeViewModel> {
        let tableView = UITableView()
         tableView.register(PokemonCell.self)
         tableView.bounces = false
+        tableView.showsVerticalScrollIndicator = false
         return tableView
     }()
     
@@ -93,7 +94,7 @@ extension HomeViewController {
 extension HomeViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        viewModel.didSelectRowAt()
+        viewModel.didSelectRowAt(indexPath: indexPath)
     }
 }
 

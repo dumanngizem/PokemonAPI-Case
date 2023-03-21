@@ -20,7 +20,7 @@ protocol HomeViewEventSource {
 
 protocol HomeViewProtocol: HomeViewDataSource, HomeViewEventSource {
     func viewDidLoad()
-    func didSelectRowAt()
+    func didSelectRowAt(indexPath: IndexPath)
 }
 
 final class HomeViewModel: BaseViewModel<HomeRouter>, HomeViewProtocol {
@@ -87,7 +87,8 @@ extension HomeViewModel {
 // MARK: - Routes
 extension HomeViewModel {
     
-    func didSelectRowAt() {
-        router.pushPokemonDetails()
+    func didSelectRowAt(indexPath: IndexPath) {
+        let name = cellItems?[indexPath.row].title
+        router.pushPokemonDetails(pokemonName: name, pokemonIndex: indexPath.row)
     }
 }
