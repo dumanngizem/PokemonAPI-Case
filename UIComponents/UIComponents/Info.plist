@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 0</key>
+	<string>Inter-Black.tff</string>
+	<key>item 1</key>
+	<string>Inter-Thin.ttf</string>
+	<key>item 2</key>
+	<string>Inter-SemiBold.ttf</string>
+	<key>item 3</key>
+	<string>Inter-Light.ttf</string>
+	<key>item 4</key>
+	<string>Inter-Medium.ttf</string>
+	<key>item 5</key>
+	<string>SecularOne-Regular.ttf</string>
+	<key>item 6</key>
+	<string>Athiti-Regular.ttf</string>
+	<key>item 7</key>
+	<string>Dongle-Regular.ttf</string>
+	<key>item 8</key>
+	<string>Dongle-Light.ttf</string>
+	<key>item 9</key>
+	<string>Dongle-Bold.ttf</string>
+</dict>
+</plist>
