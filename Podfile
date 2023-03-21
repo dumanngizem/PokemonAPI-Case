@@ -35,3 +35,11 @@ target 'DataProvider' do
 
 
 end 
+
+target 'Utilities' do
+  
+  project 'Utilities/Utilities.xcodeproj'
+
+  # Pods for Utilities
+
+end
