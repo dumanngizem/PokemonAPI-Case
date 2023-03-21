@@ -6,17 +6,17 @@
 //
 
 protocol PokemonDetailsRoute {
-    func pushPokemonDetails()
+    func pushPokemonDetails(pokemonName: String?, pokemonIndex: Int?)
 }
 
 extension PokemonDetailsRoute where Self: RouterProtocol {
     
-    func pushPokemonDetails() {
+    func pushPokemonDetails(pokemonName: String?, pokemonIndex: Int?) {
         let router = PokemonDetailsRouter()
-        let viewModel = PokemonDetailsViewModel(router: router)
+        let viewModel = PokemonDetailsViewModel(router: router, pokemonName: pokemonName, pokemonIndex: pokemonIndex)
         let viewController = PokemonDetailsViewController(viewModel: viewModel)
         
-        let transition = PlaceOnWindowTransition()
+        let transition = PushTransition()
         router.viewController = viewController
         router.openTransition = transition
         
