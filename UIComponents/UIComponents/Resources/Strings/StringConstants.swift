@@ -13,6 +13,11 @@ public enum L10n {
   /// Update bundle if you need to change app language
   public static var bundle: Bundle?
 
+  public enum Home {
+    /// Anasayfa
+    public static var title: String { return L10n.tr("Localizable", "Home.title") }
+  }
+
   public enum Splash {
     /// POKEMON API CASE
     public static var titleLabelText: String { return L10n.tr("Localizable", "Splash.title_label_text") }

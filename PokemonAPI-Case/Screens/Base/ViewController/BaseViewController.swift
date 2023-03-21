@@ -62,11 +62,11 @@ extension BaseViewController {
     private func subscribeLoading() {
         viewModel.showLoading = {
             let window = UIApplication.shared.windows.first
-            //window?.showNytLoaderView()
+            window?.showPACLoaderView()
         }
         viewModel.hideLoading = {
             let window = UIApplication.shared.windows.first
-            //window?.hideNytLoaderView()
+            window?.hidePACLoaderView()
         }
     }
 }

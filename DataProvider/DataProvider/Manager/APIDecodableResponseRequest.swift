@@ -5,10 +5,10 @@
 //  Created by Gizem Duman on 21.03.2023.
 //
 
-public protocol SMRequest: DecodableResponseRequest {}
+public protocol PACRequest: DecodableResponseRequest {}
 
 // MARK: - RequestEncoding
-public extension SMRequest {
+public extension PACRequest {
     var encoding: RequestEncoding {
         switch method {
         case .get:
@@ -20,21 +20,21 @@ public extension SMRequest {
 }
 
 // MARK: - url
-public extension SMRequest {
+public extension PACRequest {
     var url: String {
-        return "https://www.omdbapi.com/?apikey=5d8b9e8c" + path
+        return "https://pokeapi.co/api/v2/" + path
     }
 }
 
 // MARK: - RequestParameters
-public extension SMRequest {
+public extension PACRequest {
     var parameters: RequestParameters {
         return [:]
     }
 }
 
 // MARK: - RequestHeaders
-public extension SMRequest {
+public extension PACRequest {
     var headers: RequestHeaders {
         return [:]
     }

@@ -6,6 +6,7 @@ def shared_pods
 
   pod 'TinyConstraints', '~> 4.0'
   pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher', :branch => 'version6-xcode13'
+  
 
 end
 
@@ -21,6 +22,9 @@ target 'PokemonAPI-Case' do
 
   # Lint
   pod 'SwiftLint', '~> 0.43'
+
+  #UI
+  pod 'lottie-ios'
 
 end
 
@@ -54,5 +58,8 @@ target 'UIComponents' do
   pod 'SwiftGen', '~> 6.5.1'
   pod 'TinyConstraints', '~> 4.0'
   pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher', :branch => 'version6-xcode13'
+
+  #UI
+  pod 'lottie-ios'
 
 end
