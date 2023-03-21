@@ -1,0 +1,6 @@
+framework module Pods_PokemonAPI_Case {
+  umbrella header "Pods-PokemonAPI-Case-umbrella.h"
+
+  export *
+  module * { export * }
+}

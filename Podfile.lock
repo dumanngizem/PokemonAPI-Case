@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Kingfisher (6.3.1)
+  - SwiftLint (0.50.3)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher`, branch `version6-xcode13`)
+  - SwiftLint (~> 0.43)
+  - TinyConstraints (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftLint
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :branch: version6-xcode13
+    :git: https://github.com/onevcat/Kingfisher
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: d0494dd78f7adf2d3526fdf3267176553020c041
+    :git: https://github.com/onevcat/Kingfisher
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Kingfisher: 8b783c3d7be73a99b2172a743a5bc0a4dd331d79
+  SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 157d3c9871b5acc8193228356c14fa94f43c8f69
+
+COCOAPODS: 1.11.3
