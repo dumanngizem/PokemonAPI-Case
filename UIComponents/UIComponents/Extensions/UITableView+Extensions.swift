@@ -38,4 +38,19 @@ public extension UITableView {
         return cell
     }
 }
+
+// MARK: - UI
+public extension UITableView {
+    
+    func setEmptyView(delegate: EmptyViewDelegate? = nil){
+        let view = EmptyView()
+        view.delegate = delegate
+        self.backgroundView = view
+    }
+    
+    func restore() {
+        self.backgroundView = nil
+    }
+}
+
 // swiftlint:enable fatal_error
