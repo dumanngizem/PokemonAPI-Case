@@ -11,3 +11,6 @@
 
 // MARK: - Home
 "Home.title" = "Anasayfa";
+
+// MARK: - EmptyView
+"EmptyView.button_title" = "Tekrar Dene";

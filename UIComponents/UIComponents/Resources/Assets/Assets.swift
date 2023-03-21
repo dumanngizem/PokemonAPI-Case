@@ -25,6 +25,7 @@ public enum Asset {
   }
   public enum Images {
     public static let imgChevronRight = ImageAsset(name: "img_chevron_right")
+    public static let imgClose = ImageAsset(name: "img_close")
     public static let imgPlaceholder = ImageAsset(name: "img_placeholder")
     public static let imgSplash = ImageAsset(name: "img_splash")
   }
