@@ -38,6 +38,7 @@
 		63C8E06929C9C5C20082114F /* Dongle-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63C8E05A29C9C5C20082114F /* Dongle-Light.ttf */; };
 		63C8E06A29C9C5C20082114F /* Dongle-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63C8E05B29C9C5C20082114F /* Dongle-Bold.ttf */; };
 		63C8E06B29C9C5C20082114F /* SecularOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63C8E05D29C9C5C20082114F /* SecularOne-Regular.ttf */; };
+		63C8E0B429C9F4040082114F /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0B329C9F4040082114F /* StringConstants.swift */; };
 		79EAFAC59C8D9162637B6BE9 /* libPods-UIComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5BAA62DBE5AE1DBDDB7C24 /* libPods-UIComponents.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		63C8E05A29C9C5C20082114F /* Dongle-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dongle-Light.ttf"; sourceTree = "<group>"; };
 		63C8E05B29C9C5C20082114F /* Dongle-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dongle-Bold.ttf"; sourceTree = "<group>"; };
 		63C8E05D29C9C5C20082114F /* SecularOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SecularOne-Regular.ttf"; sourceTree = "<group>"; };
+		63C8E0B329C9F4040082114F /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		63C8E01D29C9BE180082114F /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E0B329C9F4040082114F /* StringConstants.swift */,
 				63C8E03529C9C3ED0082114F /* LocalizeManager.swift */,
 				63C8E03B29C9C41C0082114F /* Localizable.strings */,
 			);
@@ -393,6 +396,7 @@
 				63C8E04929C9C4F50082114F /* UIImage+Icons.swift in Sources */,
 				63C8E01429C9BD6E0082114F /* NSMutableAttributedString+Extension.swift in Sources */,
 				63C8E03629C9C3ED0082114F /* LocalizeManager.swift in Sources */,
+				63C8E0B429C9F4040082114F /* StringConstants.swift in Sources */,
 				63C8E04C29C9C5050082114F /* Fonts.swift in Sources */,
 				63C8E04A29C9C4F50082114F /* Assets.swift in Sources */,
 				63C8E01229C9BD4D0082114F /* UIView+Extensions.swift in Sources */,
