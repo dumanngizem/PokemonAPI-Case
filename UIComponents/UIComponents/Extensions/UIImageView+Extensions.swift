@@ -15,4 +15,12 @@ public extension UIImageView {
         let placeHolder: UIImage = .imgPlaceholder
         self.kf.setImage(with: url, placeholder: placeHolder)
     }
+    
+    func setKFPokemonImage(index: Int) {
+        let increaseIndex = index + 1
+        let imageString = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/\(increaseIndex).png"
+        let url = URL(string: imageString)
+        let placeHolder: UIImage = .imgPlaceholder
+        self.kf.setImage(with: url, placeholder: placeHolder)
+    }
 }
