@@ -8,3 +8,6 @@
 
 // MARK: - Splash
 "Splash.title_label_text" = "POKEMON API CASE";
+
+// MARK: - Home
+"Home.title" = "Anasayfa";
