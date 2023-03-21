@@ -63,8 +63,10 @@ extension PokemonCell {
     private func addPokemonImageView() {
         contentView.addSubview(pokemonImageView)
         pokemonImageView.leadingToSuperview(offset: 16)
-        pokemonImageView.verticalToSuperview(insets: .vertical(16))
-        pokemonImageView.size(.init(width: 80, height: 80))
+        pokemonImageView.topToSuperview(offset: 8)
+        pokemonImageView.bottomToSuperview(offset: -8)
+        pokemonImageView.width(80)
+        pokemonImageView.height(80, priority: .init(999))
     }
     
     private func addTitleLabel() {
@@ -97,9 +99,7 @@ extension PokemonCell {
     
     private func configurePokemonImageView() {
         guard let index = viewModel?.index else { return }
-        let indexIncrease = index + 1
-        let imageString = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/\(indexIncrease).png"
-        pokemonImageView.setKFImage(imageString)
+        pokemonImageView.setKFPokemonImage(index: index)
     }
     
     private func configureTitleLabel() {
