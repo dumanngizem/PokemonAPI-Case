@@ -38,6 +38,10 @@
 		63C8E0A629C9CE150082114F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0A329C9CE150082114F /* SplashViewController.swift */; };
 		63C8E0A729C9CE150082114F /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0A429C9CE150082114F /* SplashViewModel.swift */; };
 		63C8E0A929C9CE260082114F /* SplashRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0A829C9CE260082114F /* SplashRoute.swift */; };
+		63C8E0AE29C9EDD70082114F /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0AB29C9EDD70082114F /* HomeRouter.swift */; };
+		63C8E0AF29C9EDD70082114F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0AC29C9EDD70082114F /* HomeViewController.swift */; };
+		63C8E0B029C9EDD70082114F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0AD29C9EDD70082114F /* HomeViewModel.swift */; };
+		63C8E0B229C9EDE60082114F /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0B129C9EDE60082114F /* HomeRoute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +79,10 @@
 		63C8E0A329C9CE150082114F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		63C8E0A429C9CE150082114F /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		63C8E0A829C9CE260082114F /* SplashRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRoute.swift; sourceTree = "<group>"; };
+		63C8E0AB29C9EDD70082114F /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		63C8E0AC29C9EDD70082114F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63C8E0AD29C9EDD70082114F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		63C8E0B129C9EDE60082114F /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
 		7F7D777F9159E2E2F95359F0 /* Pods-PokemonAPI-Case.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonAPI-Case.debug.xcconfig"; path = "Target Support Files/Pods-PokemonAPI-Case/Pods-PokemonAPI-Case.debug.xcconfig"; sourceTree = "<group>"; };
 		E14E7DB5AF1666B69EE7F170 /* Pods-PokemonAPI-Case.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonAPI-Case.release.xcconfig"; path = "Target Support Files/Pods-PokemonAPI-Case/Pods-PokemonAPI-Case.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +154,7 @@
 		63C8E06C29C9C9990082114F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E0AA29C9EDC60082114F /* Home */,
 				63C8E0A129C9CDF40082114F /* Splash */,
 				63C8E06D29C9C9A60082114F /* Base */,
 			);
@@ -267,6 +276,17 @@
 				63C8E0A829C9CE260082114F /* SplashRoute.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		63C8E0AA29C9EDC60082114F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63C8E0AB29C9EDD70082114F /* HomeRouter.swift */,
+				63C8E0AC29C9EDD70082114F /* HomeViewController.swift */,
+				63C8E0AD29C9EDD70082114F /* HomeViewModel.swift */,
+				63C8E0B129C9EDE60082114F /* HomeRoute.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		8C649C06B609DDE08E611FA6 /* Frameworks */ = {
@@ -408,13 +428,17 @@
 				63C8E09229C9CCA90082114F /* ModalTransition.swift in Sources */,
 				63C8E09A29C9CD280082114F /* PushTransition.swift in Sources */,
 				63C8E08129C9CB930082114F /* APIRequestInterceptor.swift in Sources */,
+				63C8E0AF29C9EDD70082114F /* HomeViewController.swift in Sources */,
 				63C8E09D29C9CD680082114F /* Animator.swift in Sources */,
 				63C8E0A729C9CE150082114F /* SplashViewModel.swift in Sources */,
 				63C8E08B29C9CC440082114F /* PopToViewController.swift in Sources */,
 				63C8E0A929C9CE260082114F /* SplashRoute.swift in Sources */,
 				63C8E08F29C9CC740082114F /* PopToRoute.swift in Sources */,
+				63C8E0AE29C9EDD70082114F /* HomeRouter.swift in Sources */,
 				63C8E08929C9CC310082114F /* AppRouter.swift in Sources */,
 				63C8E09829C9CD0E0082114F /* Transition.swift in Sources */,
+				63C8E0B029C9EDD70082114F /* HomeViewModel.swift in Sources */,
+				63C8E0B229C9EDE60082114F /* HomeRoute.swift in Sources */,
 				63C8DF8129C9A8490082114F /* AppDelegate.swift in Sources */,
 				63C8E09429C9CCD90082114F /* SetRootViewControllerTransition.swift in Sources */,
 				63C8E07A29C9CA7E0082114F /* BaseViewController.swift in Sources */,
@@ -567,7 +591,6 @@
 				INFOPLIST_FILE = "PokemonAPI-Case/Configure/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -597,7 +620,6 @@
 				INFOPLIST_FILE = "PokemonAPI-Case/Configure/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
