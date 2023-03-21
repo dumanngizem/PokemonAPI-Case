@@ -22,6 +22,7 @@
 		63C8DFC229C9AF960082114F /* APIDecodableResponseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFC129C9AF960082114F /* APIDecodableResponseRequest.swift */; };
 		63C8DFCA29C9AFFB0082114F /* BaseResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFC929C9AFFB0082114F /* BaseResponseError.swift */; };
 		63C8DFCC29C9B0CE0082114F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFCB29C9B0CE0082114F /* NetworkError.swift */; };
+		63C8E03429C9C3790082114F /* MultiPartFileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E03329C9C3790082114F /* MultiPartFileData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		63C8DFC129C9AF960082114F /* APIDecodableResponseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDecodableResponseRequest.swift; sourceTree = "<group>"; };
 		63C8DFC929C9AFFB0082114F /* BaseResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponseError.swift; sourceTree = "<group>"; };
 		63C8DFCB29C9B0CE0082114F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		63C8E03329C9C3790082114F /* MultiPartFileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartFileData.swift; sourceTree = "<group>"; };
 		77D49B782FFA86B717426BE2 /* Pods-DataProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataProvider.debug.xcconfig"; path = "Target Support Files/Pods-DataProvider/Pods-DataProvider.debug.xcconfig"; sourceTree = "<group>"; };
 		9BFBFF5B4CA20C880E9CEF24 /* Pods-DataProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataProvider.release.xcconfig"; path = "Target Support Files/Pods-DataProvider/Pods-DataProvider.release.xcconfig"; sourceTree = "<group>"; };
 		A376E3FD8137322434704256 /* libPods-DataProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataProvider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				63C8DFC829C9AFEC0082114F /* Error */,
+				63C8E03329C9C3790082114F /* MultiPartFileData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				63C8DFBB29C9AF1D0082114F /* Encodable+Exntension.swift in Sources */,
 				63C8DFB229C9AE820082114F /* RequestMethod.swift in Sources */,
+				63C8E03429C9C3790082114F /* MultiPartFileData.swift in Sources */,
 				63C8DFBE29C9AF4C0082114F /* APIDataProvider.swift in Sources */,
 				63C8DFCA29C9AFFB0082114F /* BaseResponseError.swift in Sources */,
 				63C8DFB429C9AEB10082114F /* RequestEncoding.swift in Sources */,

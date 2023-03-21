@@ -14,7 +14,6 @@
 		63C8DFEA29C9B6410082114F /* Formatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFE929C9B6410082114F /* Formatter+Extension.swift */; };
 		63C8DFEC29C9B6590082114F /* Share+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFEB29C9B6590082114F /* Share+Extension.swift */; };
 		63C8DFEE29C9B6770082114F /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFED29C9B6770082114F /* UIApplication+Extensions.swift */; };
-		63C8DFF029C9B6950082114F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFEF29C9B6950082114F /* UIView+Extension.swift */; };
 		63C8DFF229C9B6B10082114F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFF129C9B6B10082114F /* String+Extensions.swift */; };
 		63C8DFF429C9B6C50082114F /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFF329C9B6C50082114F /* Int+Extension.swift */; };
 		63C8DFF629C9B6E80082114F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8DFF529C9B6E80082114F /* UIViewController+Extensions.swift */; };
@@ -34,7 +33,6 @@
 		63C8DFE929C9B6410082114F /* Formatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extension.swift"; sourceTree = "<group>"; };
 		63C8DFEB29C9B6590082114F /* Share+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Share+Extension.swift"; sourceTree = "<group>"; };
 		63C8DFED29C9B6770082114F /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
-		63C8DFEF29C9B6950082114F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		63C8DFF129C9B6B10082114F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		63C8DFF329C9B6C50082114F /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		63C8DFF529C9B6E80082114F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				63C8DFE929C9B6410082114F /* Formatter+Extension.swift */,
 				63C8DFEB29C9B6590082114F /* Share+Extension.swift */,
 				63C8DFED29C9B6770082114F /* UIApplication+Extensions.swift */,
-				63C8DFEF29C9B6950082114F /* UIView+Extension.swift */,
 				63C8DFF129C9B6B10082114F /* String+Extensions.swift */,
 				63C8DFF329C9B6C50082114F /* Int+Extension.swift */,
 				63C8DFF529C9B6E80082114F /* UIViewController+Extensions.swift */,
@@ -242,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C8DFEA29C9B6410082114F /* Formatter+Extension.swift in Sources */,
-				63C8DFF029C9B6950082114F /* UIView+Extension.swift in Sources */,
 				63C8DFF629C9B6E80082114F /* UIViewController+Extensions.swift in Sources */,
 				63C8DFE329C9B5EA0082114F /* Clousers.swift in Sources */,
 				63C8DFF429C9B6C50082114F /* Int+Extension.swift in Sources */,
