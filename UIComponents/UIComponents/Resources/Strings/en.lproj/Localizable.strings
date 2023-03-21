@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  UIComponents
+
+  Created by Gizem Duman on 21.03.2023.
+  
+*/
+
+// MARK: - Test
+"Test.test_title"  = "Test";
