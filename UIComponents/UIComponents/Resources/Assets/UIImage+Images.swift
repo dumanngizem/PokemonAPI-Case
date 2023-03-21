@@ -10,6 +10,10 @@ public extension UIImage {
       return Asset.Images.imgChevronRight.image
   }
 
+  static var imgClose: UIImage {
+      return Asset.Images.imgClose.image
+  }
+
   static var imgPlaceholder: UIImage {
       return Asset.Images.imgPlaceholder.image
   }

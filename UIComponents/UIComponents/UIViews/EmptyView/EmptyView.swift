@@ -22,13 +22,11 @@ public class EmptyView: UIView {
         button.backgroundColor = .clear
         button.layer.borderColor = UIColor.gray.cgColor
         button.layer.borderWidth = 2
-        button.setTitle("Try Again", for: .normal)
+        button.setTitle(L10n.EmptyView.buttonTitle, for: .normal)
         button.titleLabel?.font = FontFamily.Inter.medium.font(size: 12)
         button.setTitleColor(.gray, for: .normal)
         return button
     }()
-    
-    private var screenSize = UIScreen.main.bounds
     
     public weak var delegate: EmptyViewDelegate?
 

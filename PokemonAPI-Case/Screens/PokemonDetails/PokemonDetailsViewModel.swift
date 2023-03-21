@@ -7,7 +7,10 @@
 
 import Foundation
 
-protocol PokemonDetailsViewDataSource {}
+protocol PokemonDetailsViewDataSource {
+    var index: Int? { get }
+    var title: String? { get }
+}
 
 protocol PokemonDetailsViewEventSource {}
 
@@ -15,4 +18,24 @@ protocol PokemonDetailsViewProtocol: PokemonDetailsViewDataSource, PokemonDetail
 
 final class PokemonDetailsViewModel: BaseViewModel<PokemonDetailsRouter>, PokemonDetailsViewProtocol {
     
+    private var pokemonName: String?
+    private var pokemonIndex: Int?
+    
+    public init(router: PokemonDetailsRouter, pokemonName: String?, pokemonIndex: Int?) {
+        super.init(router: router)
+        self.pokemonName = pokemonName
+        self.pokemonIndex = pokemonIndex
+    }
+}
+
+// MARK: - DataSources
+extension PokemonDetailsViewModel {
+    
+    var index: Int? {
+        return pokemonIndex
+    }
+    
+    var title: String? {
+        return pokemonName?.firstUppercased
+    }
 }

@@ -44,6 +44,7 @@
 		63C8E0BE29CA09BC0082114F /* PACLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0BD29CA09BC0082114F /* PACLoaderView.swift */; };
 		63C8E0D329CA3CC80082114F /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0D229CA3CC80082114F /* UIImageView+Extensions.swift */; };
 		63C8E0E529CA46540082114F /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0E429CA46540082114F /* EmptyView.swift */; };
+		63C8E0EA29CA562F0082114F /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0E929CA562F0082114F /* SizeConstants.swift */; };
 		79EAFAC59C8D9162637B6BE9 /* libPods-UIComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5BAA62DBE5AE1DBDDB7C24 /* libPods-UIComponents.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		63C8E0BD29CA09BC0082114F /* PACLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PACLoaderView.swift; sourceTree = "<group>"; };
 		63C8E0D229CA3CC80082114F /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		63C8E0E429CA46540082114F /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		63C8E0E929CA562F0082114F /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		63C8E00829C9BCD30082114F /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E0E829CA56160082114F /* Constants */,
 				63C8E0BB29CA099C0082114F /* UIViews */,
 				63C8E0B529C9FCD80082114F /* Cells */,
 				63C8E01C29C9BE0C0082114F /* Resources */,
@@ -288,6 +291,14 @@
 				63C8E0E429CA46540082114F /* EmptyView.swift */,
 			);
 			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		63C8E0E829CA56160082114F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				63C8E0E929CA562F0082114F /* SizeConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		65B9222FEB1AA7A0FD69910E /* Frameworks */ = {
@@ -451,6 +462,7 @@
 				63C8E04929C9C4F50082114F /* UIImage+Icons.swift in Sources */,
 				63C8E01429C9BD6E0082114F /* NSMutableAttributedString+Extension.swift in Sources */,
 				63C8E0E529CA46540082114F /* EmptyView.swift in Sources */,
+				63C8E0EA29CA562F0082114F /* SizeConstants.swift in Sources */,
 				63C8E0BA29C9FD810082114F /* PokemonCellModel.swift in Sources */,
 				63C8E0B929C9FD810082114F /* PokemonCell.swift in Sources */,
 				63C8E03629C9C3ED0082114F /* LocalizeManager.swift in Sources */,
