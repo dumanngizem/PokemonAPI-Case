@@ -179,11 +179,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher-framework/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints-framework/TinyConstraints.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios-framework/Lottie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher-framework/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints-framework/TinyConstraints.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios-framework/Lottie.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

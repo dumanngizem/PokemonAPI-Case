@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (5.6.4)
   - Kingfisher (6.3.1)
+  - lottie-ios (4.1.3)
   - SwiftGen (6.5.1)
   - SwiftLint (0.50.3)
   - TinyConstraints (4.0.2)
@@ -8,6 +9,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5.4)
   - Kingfisher (from `https://github.com/onevcat/Kingfisher`, branch `version6-xcode13`)
+  - lottie-ios
   - SwiftGen (~> 6.5.1)
   - SwiftLint (~> 0.43)
   - TinyConstraints (~> 4.0)
@@ -15,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - lottie-ios
     - SwiftGen
     - SwiftLint
     - TinyConstraints
@@ -32,10 +35,11 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   Kingfisher: 8b783c3d7be73a99b2172a743a5bc0a4dd331d79
+  lottie-ios: d0954d3150061f662ed0adf96ef98d7421864c47
   SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
   SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: ac39e8b7aa847264977e0c6d01df7d65d368f6dd
+PODFILE CHECKSUM: 653c64da7573c89a5c4c36efb007dfd9f31bdf47
 
 COCOAPODS: 1.11.3
