@@ -6,5 +6,5 @@
   
 */
 
-// MARK: - Test
-"Test.test_title"  = "Test";
+// MARK: - Splash
+"Splash.title_label_text" = "POKEMON API CASE";
