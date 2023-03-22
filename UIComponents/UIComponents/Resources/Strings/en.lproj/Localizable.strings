@@ -14,3 +14,6 @@
 
 // MARK: - EmptyView
 "EmptyView.button_title" = "Try Again";
+
+// MARK: - PokemonDetails
+"PokemonDetails.Abilites.title_text" = "Abilities";

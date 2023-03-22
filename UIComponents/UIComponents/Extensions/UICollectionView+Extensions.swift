@@ -40,3 +40,23 @@ public extension UICollectionView {
         return cell
     }
 }
+
+// MARK: - UI
+public extension UICollectionView {
+    
+    func loadingView() {
+        let containerView = UIView(frame: bounds)
+        
+        let activityIndicatorView = UIActivityIndicatorView(style: .medium)
+        containerView.addSubview(activityIndicatorView)
+        activityIndicatorView.centerInSuperview()
+
+        activityIndicatorView.startAnimating()
+        
+        self.backgroundView = containerView
+    }
+    
+    func restore() {
+        self.backgroundView = nil
+    }
+}

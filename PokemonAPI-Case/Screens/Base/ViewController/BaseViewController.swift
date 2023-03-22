@@ -34,8 +34,6 @@ class BaseViewController<V: BaseViewModelProtocol>: UIViewController {
     
     private func configureContents() {
         self.tabBarController?.tabBar.isTranslucent = true
-        let backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        navigationItem.backBarButtonItem = backBarButtonItem
         view.backgroundColor = .white
     }
     

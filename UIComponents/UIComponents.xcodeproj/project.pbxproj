@@ -45,6 +45,10 @@
 		63C8E0D329CA3CC80082114F /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0D229CA3CC80082114F /* UIImageView+Extensions.swift */; };
 		63C8E0E529CA46540082114F /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0E429CA46540082114F /* EmptyView.swift */; };
 		63C8E0EA29CA562F0082114F /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0E929CA562F0082114F /* SizeConstants.swift */; };
+		63C8E0F929CB86E00082114F /* AbilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0F729CB86E00082114F /* AbilityViewModel.swift */; };
+		63C8E0FA29CB86E00082114F /* AbilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0F829CB86E00082114F /* AbilityView.swift */; };
+		63C8E0FF29CB890B0082114F /* AbilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0FD29CB890B0082114F /* AbilityCell.swift */; };
+		63C8E10029CB890B0082114F /* AbilityCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8E0FE29CB890B0082114F /* AbilityCellModel.swift */; };
 		79EAFAC59C8D9162637B6BE9 /* libPods-UIComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5BAA62DBE5AE1DBDDB7C24 /* libPods-UIComponents.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +97,10 @@
 		63C8E0D229CA3CC80082114F /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		63C8E0E429CA46540082114F /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		63C8E0E929CA562F0082114F /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		63C8E0F729CB86E00082114F /* AbilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityViewModel.swift; sourceTree = "<group>"; };
+		63C8E0F829CB86E00082114F /* AbilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityView.swift; sourceTree = "<group>"; };
+		63C8E0FD29CB890B0082114F /* AbilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityCell.swift; sourceTree = "<group>"; };
+		63C8E0FE29CB890B0082114F /* AbilityCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityCellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +262,7 @@
 		63C8E0B529C9FCD80082114F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E0FB29CB88F40082114F /* CollectionViewCells */,
 				63C8E0B629C9FCEB0082114F /* TableViewCells */,
 			);
 			path = Cells;
@@ -271,6 +280,7 @@
 		63C8E0BB29CA099C0082114F /* UIViews */ = {
 			isa = PBXGroup;
 			children = (
+				63C8E0F629CB86C60082114F /* AbilityView */,
 				63C8E0E229CA46310082114F /* EmptyView */,
 				63C8E0BC29CA09A60082114F /* PACLoaderView */,
 			);
@@ -299,6 +309,32 @@
 				63C8E0E929CA562F0082114F /* SizeConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		63C8E0F629CB86C60082114F /* AbilityView */ = {
+			isa = PBXGroup;
+			children = (
+				63C8E0F729CB86E00082114F /* AbilityViewModel.swift */,
+				63C8E0F829CB86E00082114F /* AbilityView.swift */,
+			);
+			path = AbilityView;
+			sourceTree = "<group>";
+		};
+		63C8E0FB29CB88F40082114F /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				63C8E0FC29CB88FC0082114F /* AbilityCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		63C8E0FC29CB88FC0082114F /* AbilityCell */ = {
+			isa = PBXGroup;
+			children = (
+				63C8E0FD29CB890B0082114F /* AbilityCell.swift */,
+				63C8E0FE29CB890B0082114F /* AbilityCellModel.swift */,
+			);
+			path = AbilityCell;
 			sourceTree = "<group>";
 		};
 		65B9222FEB1AA7A0FD69910E /* Frameworks */ = {
@@ -459,14 +495,18 @@
 				63C8E01B29C9BDEA0082114F /* ReusableView.swift in Sources */,
 				63C8E01629C9BD8D0082114F /* UITableView+Extensions.swift in Sources */,
 				63C8E04729C9C4F50082114F /* UIColor+Colors.swift in Sources */,
+				63C8E0FA29CB86E00082114F /* AbilityView.swift in Sources */,
 				63C8E04929C9C4F50082114F /* UIImage+Icons.swift in Sources */,
 				63C8E01429C9BD6E0082114F /* NSMutableAttributedString+Extension.swift in Sources */,
+				63C8E10029CB890B0082114F /* AbilityCellModel.swift in Sources */,
 				63C8E0E529CA46540082114F /* EmptyView.swift in Sources */,
 				63C8E0EA29CA562F0082114F /* SizeConstants.swift in Sources */,
 				63C8E0BA29C9FD810082114F /* PokemonCellModel.swift in Sources */,
 				63C8E0B929C9FD810082114F /* PokemonCell.swift in Sources */,
 				63C8E03629C9C3ED0082114F /* LocalizeManager.swift in Sources */,
+				63C8E0F929CB86E00082114F /* AbilityViewModel.swift in Sources */,
 				63C8E0BE29CA09BC0082114F /* PACLoaderView.swift in Sources */,
+				63C8E0FF29CB890B0082114F /* AbilityCell.swift in Sources */,
 				63C8E0B429C9F4040082114F /* StringConstants.swift in Sources */,
 				63C8E04C29C9C5050082114F /* Fonts.swift in Sources */,
 				63C8E04A29C9C4F50082114F /* Assets.swift in Sources */,

@@ -23,6 +23,13 @@ public enum L10n {
     public static var title: String { return L10n.tr("Localizable", "Home.title") }
   }
 
+  public enum PokemonDetails {
+    public enum Abilites {
+      /// Abilities
+      public static var titleText: String { return L10n.tr("Localizable", "PokemonDetails.Abilites.title_text") }
+    }
+  }
+
   public enum Splash {
     /// POKEMON API CASE
     public static var titleLabelText: String { return L10n.tr("Localizable", "Splash.title_label_text") }
