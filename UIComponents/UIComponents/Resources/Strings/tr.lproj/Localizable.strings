@@ -14,3 +14,6 @@
 
 // MARK: - EmptyView
 "EmptyView.button_title" = "Tekrar Dene";
+
+// MARK: - PokemonDetails
+"PokemonDetails.Abilites.title_text" = "Yetenekler";
