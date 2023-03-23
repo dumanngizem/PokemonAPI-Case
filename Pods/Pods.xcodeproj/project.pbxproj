@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftGen;
+			productName = SwiftGen;
 		};
 		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -817,14 +819,14 @@
 		2F5FA3B1AE2A646937D516CBC41B2716 /* OpacityAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityAnimation.swift; path = Sources/Private/CoreAnimation/Animations/OpacityAnimation.swift; sourceTree = "<group>"; };
 		2FAFEBB5C43DA9B4764D04D963C1AD36 /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
 		301D0AD310F1C722F8C5A322F21635FD /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
-		3076B2AB289B08CBBB59B00A77261823 /* Alamofire-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Alamofire-library"; path = "libAlamofire-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3076B2AB289B08CBBB59B00A77261823 /* libAlamofire-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libAlamofire-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C7D51BE586ADD64B419368A9E61215 /* KFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImage.swift; path = Sources/SwiftUI/KFImage.swift; sourceTree = "<group>"; };
 		31F82312F18B172544498215D1FBF989 /* AnyValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueProvider.swift; path = Sources/Public/DynamicProperties/AnyValueProvider.swift; sourceTree = "<group>"; };
 		3221049A8219A7D9D27A38686154BBA0 /* Alamofire-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-framework-dummy.m"; sourceTree = "<group>"; };
 		32638E1BAFDA7305C672815FDB26BC57 /* Pods-DataProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataProvider-umbrella.h"; sourceTree = "<group>"; };
 		333CFB36AE8178A16414984E8C83EDA6 /* AnimationImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationImageProvider.swift; path = Sources/Public/ImageProvider/AnimationImageProvider.swift; sourceTree = "<group>"; };
-		343CE98738FF456D1F5E2995AC819CEE /* Alamofire-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Alamofire-framework"; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34BBC3D2C57FE2FDB60A761925690711 /* Pods-UIComponents */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-UIComponents"; path = "libPods-UIComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		343CE98738FF456D1F5E2995AC819CEE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BBC3D2C57FE2FDB60A761925690711 /* libPods-UIComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E5D1BF21978034305B6D8A6702B14A /* Trim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trim.swift; path = Sources/Private/Model/ShapeItems/Trim.swift; sourceTree = "<group>"; };
 		357070273330B9698A33BAE2150D79F4 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
 		363B4D99BABEE7939194C1FA3E0F305D /* lottie-ios-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "lottie-ios-library-umbrella.h"; path = "../lottie-ios-library/lottie-ios-library-umbrella.h"; sourceTree = "<group>"; };
@@ -865,7 +867,7 @@
 		5317CBED62294AAD25EAEAB843903C4C /* GradientAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimations.swift; path = Sources/Private/CoreAnimation/Animations/GradientAnimations.swift; sourceTree = "<group>"; };
 		53B2C247AD38E02D347691385A33715F /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		54215A1041CF99D2EFEDF6E23DEA94D8 /* CALayer+fillBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+fillBounds.swift"; path = "Sources/Private/CoreAnimation/Extensions/CALayer+fillBounds.swift"; sourceTree = "<group>"; };
-		556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Kingfisher-framework"; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5687D592300FCB0661451609624D90D5 /* LayerDebugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerDebugging.swift; path = Sources/Private/Utility/Debugging/LayerDebugging.swift; sourceTree = "<group>"; };
 		569BD54338FF280A789B0E267C590963 /* PreCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreCompositionLayer.swift; path = Sources/Private/MainThread/LayerContainers/CompLayers/PreCompositionLayer.swift; sourceTree = "<group>"; };
 		56B466EFF4D824EDE8E53248BE896571 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
@@ -874,10 +876,10 @@
 		5849C18CBB2407ACFECDCCF08838B221 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
 		588909A216D31AB470D6B3BC08854BAE /* Kingfisher-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-framework-dummy.m"; sourceTree = "<group>"; };
 		59D7045B488307A1C9BF90A909B52B1C /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
-		5A15AA6940092A67973402B3ECBFD393 /* Pods-DataProvider */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-DataProvider"; path = "libPods-DataProvider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A15AA6940092A67973402B3ECBFD393 /* libPods-DataProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataProvider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2C60771BBBF53DEEC5BE3681FCF0ED /* TestHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestHelpers.swift; path = Sources/Private/Utility/Debugging/TestHelpers.swift; sourceTree = "<group>"; };
 		5A70ABC0486EC778BB7D3275FE219E7F /* LayerImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerImageProvider.swift; path = Sources/Private/MainThread/LayerContainers/Utility/LayerImageProvider.swift; sourceTree = "<group>"; };
-		5C39206DBF0BD1CBD16E10B209872124 /* TinyConstraints-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "TinyConstraints-library"; path = "libTinyConstraints-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C39206DBF0BD1CBD16E10B209872124 /* libTinyConstraints-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTinyConstraints-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C735767799219AB3F7F807EA57D9E53 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		5D08867E2BBD8CCFB83287A9155A9FC4 /* Pods-UIComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIComponents-umbrella.h"; sourceTree = "<group>"; };
 		5DF2FC31DFD2E086DA4833A51F4ABF3E /* lottie-ios-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "lottie-ios-library-dummy.m"; path = "../lottie-ios-library/lottie-ios-library-dummy.m"; sourceTree = "<group>"; };
@@ -900,7 +902,7 @@
 		6399D71FA1892D70A7B26B6718157E58 /* Pods-PokemonAPI-Case.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemonAPI-Case.release.xcconfig"; sourceTree = "<group>"; };
 		639EFC2D5684A2FC13491345C421E5B3 /* TinyConstraints-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-framework-umbrella.h"; sourceTree = "<group>"; };
 		63BC524335CD3CAD3348522781E58D2C /* lottie-ios-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lottie-ios-framework-umbrella.h"; sourceTree = "<group>"; };
-		64D7D8C6EDDE991298E92D639CA01BC4 /* lottie-ios-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "lottie-ios-framework"; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D7D8C6EDDE991298E92D639CA01BC4 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65137B2B490743AA3A5268CFA8554815 /* Alamofire-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-library-dummy.m"; path = "../Alamofire-library/Alamofire-library-dummy.m"; sourceTree = "<group>"; };
 		6561CBDE38CDD6412B34441AF9602AC3 /* KeypathSearchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeypathSearchable.swift; path = Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift; sourceTree = "<group>"; };
 		684B95F95AE41A6403270C02F4EC7057 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
@@ -990,8 +992,8 @@
 		9C11C3044E93227E3C4F1E90792ED5E0 /* CompoundBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundBezierPath.swift; path = Sources/Private/Utility/Primitives/CompoundBezierPath.swift; sourceTree = "<group>"; };
 		9C18463017CEA52D2AF76027EC130600 /* DotLottieCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotLottieCache.swift; path = Sources/Public/DotLottie/Cache/DotLottieCache.swift; sourceTree = "<group>"; };
 		9C585AA34976719F657207FB51C36D57 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		9D7C9523E122860C8A806D7F26E09148 /* Pods-PokemonAPI-Case */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PokemonAPI-Case"; path = Pods_PokemonAPI_Case.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D7C9523E122860C8A806D7F26E09148 /* Pods_PokemonAPI_Case.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonAPI_Case.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBF1B386F8F75686E562BDAD1272B96 /* Star.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Star.swift; path = Sources/Private/Model/ShapeItems/Star.swift; sourceTree = "<group>"; };
 		A1A9D40DBEA2A85239D133378BF60543 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		A25BF2DDACCF274C22F49D346CDADBB5 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
@@ -1080,7 +1082,7 @@
 		D4A226D631E1093769EB63F3C3F14B0C /* CoreTextRenderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreTextRenderLayer.swift; path = Sources/Private/MainThread/LayerContainers/Utility/CoreTextRenderLayer.swift; sourceTree = "<group>"; };
 		D4CFAC111F1DFBF1884D9B5DBB57A1C9 /* TextAnimatorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAnimatorNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift; sourceTree = "<group>"; };
 		D5D3C07BA229B111B0926866BB4ACB49 /* ShapeLayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeLayerModel.swift; path = Sources/Private/Model/Layers/ShapeLayerModel.swift; sourceTree = "<group>"; };
-		D60F83D21DBB03F9E617E90C0BF25F5A /* lottie-ios-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "lottie-ios-library"; path = "liblottie-ios-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60F83D21DBB03F9E617E90C0BF25F5A /* liblottie-ios-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblottie-ios-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CEA48A56C976CA6117761012491F5A /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
 		D75DBFDDEEE2DD9BCA89BD43DBAF0F5A /* UnitBezier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitBezier.swift; path = Sources/Private/Utility/Primitives/UnitBezier.swift; sourceTree = "<group>"; };
 		D808222A69CE02458F8E7E75EBE8F007 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
@@ -1101,7 +1103,7 @@
 		E08109E46009F520D11BB90A96800D3A /* AnimatedSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedSwitch.swift; path = Sources/Public/iOS/AnimatedSwitch.swift; sourceTree = "<group>"; };
 		E304566D1337378BE04C3678828D2817 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		E3B2939CFE8B6052A1DF520A70AC5BD9 /* PathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Protocols/PathNode.swift; sourceTree = "<group>"; };
-		E44278EF135E931EB99F30B080375E32 /* Pods-Utilities */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Utilities"; path = "libPods-Utilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44278EF135E931EB99F30B080375E32 /* libPods-Utilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Utilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55F82B22B183C294E525C584C5A62C1 /* CALayer+addAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+addAnimation.swift"; path = "Sources/Private/CoreAnimation/Animations/CALayer+addAnimation.swift"; sourceTree = "<group>"; };
 		E567C4AEC0181164DE95E70DEA4FE089 /* ShapeRenderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeRenderLayer.swift; path = Sources/Private/MainThread/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift; sourceTree = "<group>"; };
 		E571CAC0D13168C3BDBAEC785EC55845 /* BlendMode+Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BlendMode+Filter.swift"; path = "Sources/Private/Utility/Extensions/BlendMode+Filter.swift"; sourceTree = "<group>"; };
@@ -1125,7 +1127,7 @@
 		F07C141029721771BEC5811E68AEAC66 /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = Sources/Private/Utility/Primitives/CGPointExtension.swift; sourceTree = "<group>"; };
 		F219152FBF4203A3630DE740BEEFE111 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = Sources/Private/Model/ShapeItems/Merge.swift; sourceTree = "<group>"; };
 		F29AAE5121869D703E2796731D152F33 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
-		F474FC98CF99D0B594708AB00583B7C9 /* Kingfisher-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Kingfisher-library"; path = "libKingfisher-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F474FC98CF99D0B594708AB00583B7C9 /* libKingfisher-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libKingfisher-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5153D2F528CA81AACFFB5ED20B53F65 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		F5D0CBE2AAE8A04E611D7D7B4DA3677B /* PolygonNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolygonNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift; sourceTree = "<group>"; };
 		F5FB20BE895EDDD8A0A633090E2421DF /* CurveVertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurveVertex.swift; path = Sources/Private/Utility/Primitives/CurveVertex.swift; sourceTree = "<group>"; };
@@ -1137,7 +1139,7 @@
 		FB0FE6D93BA36E6D9D096115FD543C39 /* TinyConstraints-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "TinyConstraints-library.modulemap"; path = "../TinyConstraints-library/TinyConstraints-library.modulemap"; sourceTree = "<group>"; };
 		FB57C88203E22D8955C1CAD51DF85F88 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/Public/iOS/UIColorExtension.swift; sourceTree = "<group>"; };
 		FB7608150F6C97444819A22401775BAB /* AnimatorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatorNode.swift; path = Sources/Private/MainThread/NodeRenderSystem/Protocols/AnimatorNode.swift; sourceTree = "<group>"; };
-		FBC199794FD2C73FE4640A9248C835BA /* TinyConstraints-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "TinyConstraints-framework"; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC199794FD2C73FE4640A9248C835BA /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA3AEFECC3473ADA1A981AF21A191FA /* Pods-DataProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataProvider.modulemap"; sourceTree = "<group>"; };
 		FD0AF13C0624555F32116825E8FE294D /* GraphicsContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicsContext.swift; path = Sources/Image/GraphicsContext.swift; sourceTree = "<group>"; };
 		FD7AF050C7F66F9596DB3250B26EF760 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
@@ -1306,7 +1308,6 @@
 				0853E5D3807BE6E6051706BCDE9E8125 /* WKInterfaceImage+Kingfisher.swift */,
 				AD6CE8DEEDF904204150F3B6D6D8566E /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -1398,7 +1399,6 @@
 				763EAA1A191D8473BCB539AAA8D39777 /* Validation.swift */,
 				211D2220A138548D9CFB24C5BEB041DC /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1407,7 +1407,6 @@
 			children = (
 				5A8FFE94FD4114726E9F8FF7CA7109F4 /* Support Files */,
 			);
-			name = SwiftGen;
 			path = SwiftGen;
 			sourceTree = "<group>";
 		};
@@ -1642,7 +1641,6 @@
 				A65367E67E005EF1DD0EDCC767AA9CFC /* ZipEntry+ZIP64.swift */,
 				AE284202E38CC0B404A2231C71A541A6 /* Support Files */,
 			);
-			name = "lottie-ios";
 			path = "lottie-ios";
 			sourceTree = "<group>";
 		};
@@ -1659,18 +1657,18 @@
 		5B98CF7C06D7EF6F8D5790B9F66708EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				343CE98738FF456D1F5E2995AC819CEE /* Alamofire-framework */,
-				3076B2AB289B08CBBB59B00A77261823 /* Alamofire-library */,
-				556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher-framework */,
-				F474FC98CF99D0B594708AB00583B7C9 /* Kingfisher-library */,
-				64D7D8C6EDDE991298E92D639CA01BC4 /* lottie-ios-framework */,
-				D60F83D21DBB03F9E617E90C0BF25F5A /* lottie-ios-library */,
-				5A15AA6940092A67973402B3ECBFD393 /* Pods-DataProvider */,
-				9D7C9523E122860C8A806D7F26E09148 /* Pods-PokemonAPI-Case */,
-				34BBC3D2C57FE2FDB60A761925690711 /* Pods-UIComponents */,
-				E44278EF135E931EB99F30B080375E32 /* Pods-Utilities */,
-				FBC199794FD2C73FE4640A9248C835BA /* TinyConstraints-framework */,
-				5C39206DBF0BD1CBD16E10B209872124 /* TinyConstraints-library */,
+				343CE98738FF456D1F5E2995AC819CEE /* Alamofire.framework */,
+				3076B2AB289B08CBBB59B00A77261823 /* libAlamofire-library.a */,
+				556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher.framework */,
+				F474FC98CF99D0B594708AB00583B7C9 /* libKingfisher-library.a */,
+				64D7D8C6EDDE991298E92D639CA01BC4 /* Lottie.framework */,
+				D60F83D21DBB03F9E617E90C0BF25F5A /* liblottie-ios-library.a */,
+				5A15AA6940092A67973402B3ECBFD393 /* libPods-DataProvider.a */,
+				9D7C9523E122860C8A806D7F26E09148 /* Pods_PokemonAPI_Case.framework */,
+				34BBC3D2C57FE2FDB60A761925690711 /* libPods-UIComponents.a */,
+				E44278EF135E931EB99F30B080375E32 /* libPods-Utilities.a */,
+				FBC199794FD2C73FE4640A9248C835BA /* TinyConstraints.framework */,
+				5C39206DBF0BD1CBD16E10B209872124 /* libTinyConstraints-library.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1719,7 +1717,6 @@
 				2516E5A5F69A6D1118CF901E65D49BDC /* TinyEdgeInsets.swift */,
 				E7B7492BA00D39916DD7B3F96F68B7D5 /* Support Files */,
 			);
-			name = TinyConstraints;
 			path = TinyConstraints;
 			sourceTree = "<group>";
 		};
@@ -1835,7 +1832,6 @@
 			children = (
 				C7C5CA8325F763A8457E4AB67FA9DC4A /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -1955,7 +1951,7 @@
 			);
 			name = "Alamofire-framework";
 			productName = Alamofire;
-			productReference = 343CE98738FF456D1F5E2995AC819CEE /* Alamofire-framework */;
+			productReference = 343CE98738FF456D1F5E2995AC819CEE /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		47497BE8AA365DA8AAEFDEEEC086ABF6 /* Alamofire-library */ = {
@@ -1973,7 +1969,7 @@
 			);
 			name = "Alamofire-library";
 			productName = "Alamofire-library";
-			productReference = 3076B2AB289B08CBBB59B00A77261823 /* Alamofire-library */;
+			productReference = 3076B2AB289B08CBBB59B00A77261823 /* libAlamofire-library.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6C084C6500BAE898091D2EDC82249486 /* Pods-Utilities */ = {
@@ -1990,7 +1986,7 @@
 			);
 			name = "Pods-Utilities";
 			productName = "Pods-Utilities";
-			productReference = E44278EF135E931EB99F30B080375E32 /* Pods-Utilities */;
+			productReference = E44278EF135E931EB99F30B080375E32 /* libPods-Utilities.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		915529DF1B7A356BF9586A8839DDB4B3 /* Kingfisher-library */ = {
@@ -2008,7 +2004,7 @@
 			);
 			name = "Kingfisher-library";
 			productName = "Kingfisher-library";
-			productReference = F474FC98CF99D0B594708AB00583B7C9 /* Kingfisher-library */;
+			productReference = F474FC98CF99D0B594708AB00583B7C9 /* libKingfisher-library.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9AF493AA6B94B0BD19C3694BFDDEFAED /* TinyConstraints-framework */ = {
@@ -2026,7 +2022,7 @@
 			);
 			name = "TinyConstraints-framework";
 			productName = TinyConstraints;
-			productReference = FBC199794FD2C73FE4640A9248C835BA /* TinyConstraints-framework */;
+			productReference = FBC199794FD2C73FE4640A9248C835BA /* TinyConstraints.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A36AC715FC06C346B6DB614929AAC286 /* Pods-PokemonAPI-Case */ = {
@@ -2049,7 +2045,7 @@
 			);
 			name = "Pods-PokemonAPI-Case";
 			productName = Pods_PokemonAPI_Case;
-			productReference = 9D7C9523E122860C8A806D7F26E09148 /* Pods-PokemonAPI-Case */;
+			productReference = 9D7C9523E122860C8A806D7F26E09148 /* Pods_PokemonAPI_Case.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A6D565D9467A58E9FCA5477B13C91076 /* lottie-ios-library */ = {
@@ -2067,7 +2063,7 @@
 			);
 			name = "lottie-ios-library";
 			productName = "lottie-ios-library";
-			productReference = D60F83D21DBB03F9E617E90C0BF25F5A /* lottie-ios-library */;
+			productReference = D60F83D21DBB03F9E617E90C0BF25F5A /* liblottie-ios-library.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B425F5FB5BB2C6F0C0CB42812B641DD2 /* Pods-DataProvider */ = {
@@ -2085,7 +2081,7 @@
 			);
 			name = "Pods-DataProvider";
 			productName = "Pods-DataProvider";
-			productReference = 5A15AA6940092A67973402B3ECBFD393 /* Pods-DataProvider */;
+			productReference = 5A15AA6940092A67973402B3ECBFD393 /* libPods-DataProvider.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DAB6882A1DEAF54A333268A8D9D07DD3 /* Pods-UIComponents */ = {
@@ -2106,7 +2102,7 @@
 			);
 			name = "Pods-UIComponents";
 			productName = "Pods-UIComponents";
-			productReference = 34BBC3D2C57FE2FDB60A761925690711 /* Pods-UIComponents */;
+			productReference = 34BBC3D2C57FE2FDB60A761925690711 /* libPods-UIComponents.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DCEA2B5B2AC82A6BFBB1BEF454A9E8A6 /* lottie-ios-framework */ = {
@@ -2124,7 +2120,7 @@
 			);
 			name = "lottie-ios-framework";
 			productName = Lottie;
-			productReference = 64D7D8C6EDDE991298E92D639CA01BC4 /* lottie-ios-framework */;
+			productReference = 64D7D8C6EDDE991298E92D639CA01BC4 /* Lottie.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC6A52BFC97CB2B888CC538488F73DA2 /* TinyConstraints-library */ = {
@@ -2142,7 +2138,7 @@
 			);
 			name = "TinyConstraints-library";
 			productName = "TinyConstraints-library";
-			productReference = 5C39206DBF0BD1CBD16E10B209872124 /* TinyConstraints-library */;
+			productReference = 5C39206DBF0BD1CBD16E10B209872124 /* libTinyConstraints-library.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FD1851EE5E3A2AC3777B5BD750CC9B7B /* Kingfisher-framework */ = {
@@ -2160,7 +2156,7 @@
 			);
 			name = "Kingfisher-framework";
 			productName = Kingfisher;
-			productReference = 556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher-framework */;
+			productReference = 556B346725AAC757A279AB7B5E7B5A67 /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
