@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  UIComponents
+
+  Created by Gizem Duman on 21.03.2023.
+  
+*/
+
+// MARK: - Splash
+"Splash.title_label_text" = "POKEMON API CASE";
+
+// MARK: - Home
+"Home.title" = "HomePage";
+
+// MARK: - EmptyView
+"EmptyView.button_title" = "Try Again";
+
+// MARK: - PokemonDetails
+"PokemonDetails.Abilites.title_text" = "Abilities";
